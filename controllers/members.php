@@ -7,19 +7,14 @@
  */
 Class Controller_Members Extends Controller_Base {
 
-
     function index() {
-
-        echo 'Default index of the `members` controllers';
-
+       $this->registry['template']->show('membersTemplate');
     }
 
-
-    function view() {
-
-        echo 'You are viewing the members/view request';
-
-    }
-
+//    function view() {
+//
+//        echo 'You are viewing the members/view request';
+//
+//    }
 
 }
