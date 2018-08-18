@@ -10,7 +10,8 @@ Class Controller_Index Extends Controller_Base {
 
     function index() {
        // $this->registry['template']->set ('first_name', 'Dennis');
-        $this->registry['template']->show('index');
+        $this->registry['template']->show('indexTemplate');
+        //require_once('../templates/components/header.php');
     }
 
 }
