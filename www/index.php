@@ -27,3 +27,4 @@ $registry->set ('router', $router);
 $router->setPath (site_path . 'controllers');
 
 $router->delegate();
+
