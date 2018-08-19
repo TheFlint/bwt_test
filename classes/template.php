@@ -48,7 +48,8 @@ class Template
 
         include($path);
     }
-    function connectHeader($title,$css){
-        require_once ("../templates/components/header.php");
+    function connectComponent($componentName,$menuElement=array(null), $title=null,$css=null){
+
+        require ("../templates/components/{$componentName}.php");
     }
 }

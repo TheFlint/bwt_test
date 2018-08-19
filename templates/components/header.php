@@ -1,16 +1,13 @@
-<?
-echo
-"<!doctype html>
-<html lang=\"en\">
-<head>
-    <meta charset=\"UTF-8\">
-    <meta name=\"viewport\"
-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
-    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
-    <link rel=\"stylesheet\" href=\"{$css}\" type=\"text/css\"/>
-    <title>{$title}</title>
-</head>
-<body>";
-
-
-
+<header>
+    <div class="menu">
+        <?
+        for ($i = 0; $i < count($menuElement); $i++) {
+            echo "
+            <div class=\"element\">
+                {$menuElement[$i]}
+            </div>
+        ";
+        }
+        ?>
+    </div>
+</header>

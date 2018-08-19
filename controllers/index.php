@@ -9,8 +9,10 @@
 Class Controller_Index Extends Controller_Base {
 
     function index() {
-        $this->registry['template']->connectHeader('Home','/css/main.css');
+        $this->registry['template']->connectComponent('head',null,'Home','/css/main.css');
+        $this->registry['template']->connectComponent('header', $menuElement = array('home','regpage','page') );
         $this->registry['template']->show('indexTemplate');
+        $this->registry['template']->connectComponent('footer');
     }
 
 }
