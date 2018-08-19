@@ -6,7 +6,7 @@
  * Time: 20:18
  */
 
-Abstract Class Controller_Base {
+Abstract Class Controller_Base{
 
         protected $registry;
 

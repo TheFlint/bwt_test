@@ -48,8 +48,8 @@ class Template
 
         include($path);
     }
-    function connectComponent($componentName,$menuElement=array(null), $title=null,$css=null){
+    function connectComponent($componentName, $menuElements=array(null),  $title=null,$css=null){
 
-        require ("../templates/components/{$componentName}.html");
+        require ("../templates/components/{$componentName}.php");
     }
 }

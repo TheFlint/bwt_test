@@ -1,0 +1,111 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: “Raleway”;
+}
+.navbar {
+    background: #F97300;
+}
+
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.navbar-brand{
+    padding-right: 0.3em !important;
+    padding-left: 0.3em !important;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.header {
+    background-image: url('../images/weather.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    /*background-position: center;*/
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    width: 60%;
+}
+.description h1{
+    color:#F97300 ;
+}
+.description p{
+    justify-content: flex-end;
+    color:#666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.description button{
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
+}
+/*contact form*/
+.contact-form{
+    /*position: ;*/
+    padding-top: 15%;
+}
+.contact-form h1{
+    text-align: center;
+    padding:2em 1px;
+    color: #F97300;
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background: #F97300;
+    color: #fff;
+    border:0;
+}
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+}
