@@ -6,7 +6,7 @@
  * Time: 20:21
  */
 
-Class Controller_Index Extends Controller_Base
+Class Controller_Home Extends Controller_Base
 {
 
     function index()
@@ -15,14 +15,10 @@ Class Controller_Index Extends Controller_Base
         $this->registry['template']->connectComponent
         (
             'header',
-            $menuElements = array
-            (
-                $menuElement1 = array('name' => 'Home', 'link' => '/'),
-                $menuElement2 = array('link' => 'feedback', 'name' =>'Feed Back')
-            ),
+            $this->menuElements,
             'Home'
         );
-        $this->registry['template']->show('indexTemplate');
+        $this->registry['template']->show('homeTemplate');
         $this->registry['template']->connectComponent('footer');
     }
 

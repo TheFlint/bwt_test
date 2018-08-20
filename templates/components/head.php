@@ -25,7 +25,8 @@
     </script>
 
     <!-- подключение собственного css-файла -->
-    <script type="text/javascript" src='js/main.js'></script>
+    <script type="text/javascript" src='/js/main.js'></script>
+    <?php require_once 'phpfunctions/getweather.php'; ?>
 <?echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"{$css}\">
         <title>{$title}</title> 
  ";?>

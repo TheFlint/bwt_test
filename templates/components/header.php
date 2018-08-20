@@ -17,6 +17,8 @@
         </ul>
     </div>
 </nav>
+<header class="header">
+    <div class="overlay"></div>
 <? //
 //foreach ($menuElements as $key => $value) {
 //    echo "<li class=\"nav-item\">

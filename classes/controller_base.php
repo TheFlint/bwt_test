@@ -9,10 +9,17 @@
 Abstract Class Controller_Base{
 
         protected $registry;
+        public $menuElements;
 
         function __construct($registry) {
 
                 $this->registry = $registry;
+           $this->menuElements = array
+            (
+                $menuElement1 = array('name' => 'Home', 'link' => '/'),
+                $menuElement2 = array('link' => '/feedback', 'name' => 'Feed Back'),
+                $menuElement3 = array('name' => 'Comments', 'link' => '/comments')
+            );
         }
 
         abstract function index();

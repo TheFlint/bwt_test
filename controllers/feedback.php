@@ -15,11 +15,7 @@ Class Controller_FeedBack Extends Controller_Base
         $this->registry['template']->connectComponent
         (
             'header',
-            $menuElements = array
-            (
-                $menuElement1 = array('name' => 'Home', 'link' => '/'),
-                $menuElement2 = array('link' => 'feedback', 'name' => 'Feed Back')
-            ),
+            $this->menuElements,
             'Home'
         );
         $this->registry['template']->show('feedBackTemplate');
@@ -28,9 +24,8 @@ Class Controller_FeedBack Extends Controller_Base
 
     function sendComment()
     {
-        $db = new PDO('mysql:host=192.168.1.105;dbname=bwttestbase', 'root', '');
         $comment = new Comment();
-        $comment->sendComment($db);
-
+        $comment->sendComment();
     }
+
 }

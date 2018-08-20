@@ -67,16 +67,12 @@ class Router
 
         $route = (empty($_GET['route'])) ? '' : $_GET['route'];
 
-
-        if (empty($route)) { $route = 'index'; }
-
+        if (empty($route)) { $route = 'home'; }
 
         // Получаем раздельные части
 
         $route = trim($route, '/\\');
-
         $parts = explode('/', $route);
-
 
         // Находим правильный контроллер
 
