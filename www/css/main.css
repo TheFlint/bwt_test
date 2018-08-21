@@ -86,15 +86,21 @@ html, h1, h2, h3, h4, h5, h6, a {
     line-height: 1.5;
 }
 
-
+h6{
+    font-size: 24px;
+    text-align: center;
+    color: #F97300;
+    position: relative;
+}
 
 /*authorize-form*/
 .authorize-form {
     /*position: ;*/
-    padding-top: 5em;
+    /*padding-top: 2em;*/
+    /*padding-bottom: 3em;*/
 }
 
-.authorize-form h1,h6 {
+.authorize-form h1 {
     text-align: center;
     padding: 2em 1px;
     color: #F97300;

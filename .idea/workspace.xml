@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf622f3-4521-47c0-bc25-55a36ed80ab5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/loginin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/weather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/controller_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/controller_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/feedback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/commentsTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/commentsTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homeTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homeTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/loginin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/loginin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +47,7 @@
           <entry key="html" value="2" />
           <entry key="jpg" value="2" />
           <entry key="js" value="11" />
-          <entry key="php" value="175" />
+          <entry key="php" value="176" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
@@ -70,26 +57,26 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="11" />
-          <entry key="PHP" value="175" />
+          <entry key="PHP" value="176" />
           <entry key="RNG Compact" value="1" />
           <entry key="htaccess" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1181" />
+          <entry key="css" value="1205" />
           <entry key="dummy" value="9" />
           <entry key="html" value="60" />
           <entry key="js" value="102" />
-          <entry key="php" value="8353" />
+          <entry key="php" value="8566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1181" />
+          <entry key="CSS" value="1205" />
           <entry key="HTML" value="98" />
           <entry key="JavaScript" value="102" />
-          <entry key="PHP" value="8314" />
+          <entry key="PHP" value="8527" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="SQL" value="1" />
         </counts>
@@ -106,8 +93,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
+            <state relative-caret-position="1326">
+              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/components/loginin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -162,11 +158,11 @@
         <option value="$PROJECT_DIR$/templates/components/header.php" />
         <option value="$PROJECT_DIR$/templates/components/weather.php" />
         <option value="$PROJECT_DIR$/templates/homeTemplate.php" />
-        <option value="$PROJECT_DIR$/templates/components/loginin.php" />
         <option value="$PROJECT_DIR$/controllers/feedback.php" />
         <option value="$PROJECT_DIR$/classes/base.php" />
         <option value="$PROJECT_DIR$/controllers/comments.php" />
         <option value="$PROJECT_DIR$/controllers/home.php" />
+        <option value="$PROJECT_DIR$/templates/components/loginin.php" />
         <option value="$PROJECT_DIR$/www/css/main.css" />
       </list>
     </option>
@@ -177,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="43" />
     <option name="y" value="-20" />
     <option name="width" value="1936" />
@@ -294,12 +290,12 @@
       <workItem from="1534668760364" duration="30264000" />
       <workItem from="1534752411631" duration="22781000" />
       <workItem from="1534786460852" duration="16916000" />
-      <workItem from="1534842585412" duration="31561000" />
+      <workItem from="1534842585412" duration="33258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121457000" />
+    <option name="totallyTimeSpent" value="123154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -508,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/loginin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/comments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -529,10 +518,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/loginin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
+        <state relative-caret-position="1326">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
         </state>
       </provider>
     </entry>
