@@ -11,16 +11,20 @@ Class Controller_Comments Extends Controller_Base
 
     function index()
     {
-        $this->registry['template']->connectComponent('head', null, 'Comments', '/css/main.css');
-        $this->registry['template']->connectComponent
-        (
-            'header',
-            $this->menuElements,
-            'Home'
-        );
-        $this->registry['template']->show('commentsTemplate');
-        $this->registry['template']->connectComponent('footer');
+        session_set_cookie_params(3600);
+        session_start();
+        if (isset($_SESSION['userid'])) {
+            $this->registry['template']->connectComponent('head', null, 'Comments', '/css/main.css');
+            $this->registry['template']->connectComponent
+            (
+                'header',
+                $this->menuElements,
+                'Home'
+            );
+            $this->registry['template']->show('commentsTemplate');
+            $this->registry['template']->connectComponent('footer');
+        } else {
+            header('Location: /');
+        }
     }
-
-
 }

@@ -12,32 +12,14 @@ function getViewportHeight() {
 
 
 $(document).ready(function(){
-    $('.header').height(getDocumentHeight());
+    $('.content').height(getDocumentHeight());
     $('.overlay').height(getDocumentHeight());
 })
 window.onresize = function() {
-    $('.header').height(getDocumentHeight());
+    $('.content').height(getDocumentHeight());
     $('.overlay').height(getDocumentHeight());
 };
 window.onscroll = function(){
-    $('.header').height(getDocumentHeight());
+    $('.content').height(getDocumentHeight());
     $('.overlay').height(getDocumentHeight());
 }
-
-// $(document).ready(function() {
-//
-//     $("#form").submit(function() {
-//         $.ajax({
-//             type: "POST",
-//             url: "/feedback/sendComment",
-//             data: $(this).serialize()
-//         }).done(function() {
-//             $(this).find("input").val("");
-//             alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-//             $("#form").trigger("reset");
-//         });
-//         return false;
-//     });
-//
-// });
-

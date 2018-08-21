@@ -51,7 +51,7 @@ html, h1, h2, h3, h4, h5, h6, a {
     background: #fff !important;
 }
 
-.header {
+.content {
     background-image: url('../images/weather.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -86,9 +86,7 @@ html, h1, h2, h3, h4, h5, h6, a {
     line-height: 1.5;
 }
 
-.weather {
-    position: relative;
-}
+
 
 /*authorize-form*/
 .authorize-form {
@@ -116,7 +114,6 @@ html, h1, h2, h3, h4, h5, h6, a {
     color: #888;
     font-size: 16px;
 }
-
 /*contact form*/
 .contact-form {
     /*position: ;*/
@@ -176,9 +173,10 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 /*weather*/
 .weather {
+    position: relative;
     align-self: center;
     overflow:hidden;
-    border-radius: 3px;
+    border-radius: 20px 2px 20px 2px;
     /*margin-right: 10%;*/
     /*margin-left: 10%;*/
     border: 2px solid #F97300;
@@ -187,10 +185,20 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 }
 .weather .fdate, .fbottom{
-    border-radius:2px 2px 0 0;
     background-color: #F97300;
-    padding: 5px;
-    margin: 1px;
+    font-size: 18px;
+    color: white;
+    padding: 7px;
+    /*padding-left: 10px;*/
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    margin: 3px
+}
+.weather .fdate {
+    border-radius: 20px 2px 0 0;
+}
+.weather .fbottom{
+    border-radius: 0 0 20px 2px;
 }
 .weather .city-name{
 
@@ -210,4 +218,14 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 .weather .fbottom{
     color: #F97300;
+}
+
+.g-recaptcha{
+    margin: 1em !important;
+    width: 100% !important;
+    height: auto !important;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
 }

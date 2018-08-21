@@ -17,19 +17,6 @@
         </ul>
     </div>
 </nav>
-<header class="header">
+<header class="content">
     <div class="overlay"></div>
-<? //
-//foreach ($menuElements as $key => $value) {
-//    echo "<li class=\"nav-item\">
-//                                <a class=\"nav-link\" href=\"{$value['name']}\">{$value['link']}</a>
-//                            </li>";
-//}
-//?>
-<?//
-//            for ($i = 0; $i < (count($menuElements)); $i++) {
-//                echo "<li class=\"nav-item\">
-//                                 <a class=\"nav-link\" href=\"#\">{$menuElements[$i]}</a>
-//                            </li>";
-//            }
-//?>
+

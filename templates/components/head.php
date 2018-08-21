@@ -24,6 +24,8 @@
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
     </script>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <!-- подключение собственного css-файла -->
     <script type="text/javascript" src='/js/main.js'></script>
     <?php require_once 'phpfunctions/getweather.php'; ?>

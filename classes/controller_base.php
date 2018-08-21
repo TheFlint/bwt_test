@@ -18,7 +18,8 @@ Abstract Class Controller_Base{
             (
                 $menuElement1 = array('name' => 'Home', 'link' => '/'),
                 $menuElement2 = array('link' => '/feedback', 'name' => 'Feed Back'),
-                $menuElement3 = array('name' => 'Comments', 'link' => '/comments')
+                $menuElement3 = array('name' => 'Comments', 'link' => '/comments'),
+                $menuElement4 = array('name' => 'Log out', 'link' => '/logout')
             );
         }
 

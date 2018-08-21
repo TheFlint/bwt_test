@@ -11,21 +11,28 @@ Class Controller_FeedBack Extends Controller_Base
 
     function index()
     {
-        $this->registry['template']->connectComponent('head', null, 'Feed Back', '/css/main.css');
-        $this->registry['template']->connectComponent
-        (
-            'header',
-            $this->menuElements,
-            'Home'
-        );
-        $this->registry['template']->show('feedBackTemplate');
-        $this->registry['template']->connectComponent('footer');
+        session_set_cookie_params(300);
+        session_start();
+        if (isset($_SESSION['userid'])) {
+            $this->registry['template']->connectComponent('head', null, 'Feed Back', '/css/main.css');
+            $this->registry['template']->connectComponent
+            (
+                'header',
+                $this->menuElements,
+                'Home'
+            );
+            $this->registry['template']->show('feedBackTemplate');
+            $this->registry['template']->connectComponent('footer');
+        } else {
+            header('Location: /');
+        }
+
     }
 
     function sendComment()
     {
-        $comment = new Comment();
-        $comment->sendComment();
+        $comment = new Base();
+        $comment->send($allowed = array("name", "email", "text"),'comments','/feedback');
     }
 
 }
